@@ -1,13 +1,19 @@
 
 # Goldbach Conjecture Verifier 🔍✨
 
-Un conjunto de herramientas en Python para verificar y explorar la Conjetura de Goldbach. Esta conjetura postula que todo número par mayor que 2 puede ser expresado como la suma de dos números primos.
+## Introducción 📜
+
+La Conjetura de Goldbach es uno de los problemas más antiguos y sin resolver en la teoría de números. Postula que todo número par mayor que 2 puede ser expresado como la suma de dos números primos. Este proyecto ofrece un conjunto de herramientas en Python para verificar y explorar esta conjetura.
 
 ## Características 🌟
 
-- **Verificación Rápida**: Utiliza algoritmos optimizados para una verificación rápida.
-- **Uso Sencillo**: Funciones claras y legibles para verificar cualquier número en segundos.
-- **Resistente**: Incluye pruebas y validaciones para garantizar la precisión.
+- **Verificación Rápida**: Algoritmos optimizados garantizan una verificación rápida.
+- **Uso Sencillo**: Funciones claras y legibles permiten verificar cualquier número en cuestión de segundos.
+- **Resistente**: Viene equipado con pruebas y validaciones para garantizar la precisión.
+
+## Requisitos 🛠
+
+- Python 3.x
 
 ## Instalación 📦
 
@@ -25,13 +31,22 @@ resultados = verifica_goldbach_hasta(100)
 print(resultados)
 ```
 
+## Tests 🧪
+
+Para ejecutar las pruebas, haz lo siguiente:
+
+```bash
+python -m unittest discover tests
+```
+
 ## Contribuciones 🤝
 
-¡Las contribuciones son bienvenidas! 
+¡Las contribuciones son siempre bienvenidas! Por favor, consulta las [pautas de contribución](CONTRIBUTING.md) para más detalles.
 
 ## Licencia 📜
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
 
 ## Contacto 💌
 
